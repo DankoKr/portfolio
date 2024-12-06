@@ -6,27 +6,28 @@ import { Education } from '../components/education';
 import { QuoteCard } from '../components/quoteCard';
 import { GithubProfile } from '../components/githubProfile';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className='min-h-screen bg-gray-950 text-white'>
       <NavBar />
       <main className='container mx-auto px-4 pt-20'>
-        <div className='grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-6 max-w-6xl mx-auto'>
-          {/* Left Column */}
-          <div className='space-y-6'>
+        <div className='grid grid-cols-3 grid-rows-[auto_auto_auto] gap-x-6 gap-y-2 max-w-6xl mx-auto'>
+          <div className='col-span-3 md:col-span-2'>
             <IntroSection />
-            <RoleCard />
-            <TechStack />
           </div>
-
-          {/* Center Column */}
-          <div className='flex items-center justify-center px-12'>
+          <div className='col-span-3 md:col-span-1 row-span-2 flex items-center justify-center'>
+            <QuoteCard />
+          </div>
+          <div className='col-span-3 md:col-span-1'>
+            <RoleCard />
+          </div>
+          <div className='col-span-3 md:col-span-1'>
             <GithubProfile />
           </div>
-
-          {/* Right Column */}
-          <div className='space-y-6'>
-            <QuoteCard />
+          <div className='col-span-3 md:col-span-1'>
+            <TechStack />
+          </div>
+          <div className='col-span-3 md:col-span-2'>
             <Education />
           </div>
         </div>
