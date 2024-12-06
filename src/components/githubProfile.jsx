@@ -12,7 +12,7 @@ export function GithubProfile() {
           className='w-full h-full object-cover'
         />
       </div>
-      <h2 className='text-lg font-medium text-[#4a9aba]'>Tim Gatzke</h2>
+      <h2 className='text-lg font-medium text-[#4a9aba]'>DankoKr</h2>
     </div>
   );
 }
