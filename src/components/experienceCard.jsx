@@ -4,40 +4,38 @@ export function Experience() {
       <h2 className='text-xl font-semibold mb-4'>Experience</h2>
       <div className='space-y-4'>
         <div>
-          <h3 className='font-medium text-sm'>
-            Fontys University of Applied Sciences (2022 - Today)
+          <h3 className='font-medium text-m mb-1'>
+            Genzai Internship (Sep 2024 - Jan 2025)
           </h3>
           <p className='text-xs text-gray-400'>
-            I am currently attending the 5th semester at Fontys ICT (internship)
-          </p>
-        </div>
-        <div>
-          <h3 className='font-medium text-sm'>
-            Machine Learning Specialization by DeepLearning.AI, Stanford
-            University
-          </h3>
-          <p className='text-xs text-gray-400'>
-            This course provided me with an understanding of the theory behind
-            Supervised and Unsupervised Learning, as well as Neural Networks and
-            Linear Regression (Issued August 2024).
-          </p>
-        </div>
-        <div>
-          <h3 className='font-medium text-sm'>
-            Docker Foundations Professional Certificate
-          </h3>
-          <p className='text-xs text-gray-400'>
-            This course taught me the fundamentals of Docker, including working
-            with Dockerfiles, building images and containers, and utilizing
-            Docker Compose (Issued June 2024).
-          </p>
-        </div>
-        <div>
-          <h3 className='font-medium text-sm'>
-            First English Language School Sofia (2017-2022)
-          </h3>
-          <p className='text-xs text-gray-400'>
-            High School Diploma, graduated with honors.
+            <strong className='text-white'>Key Responsibilities:</strong>
+            <ul className='mb-1'>
+              <li>
+                Conducted research on designing a chatbot system to enhance user
+                experience.
+              </li>
+              <li>
+                Completed research ahead of schedule and transitioned to
+                implementation.
+              </li>
+            </ul>
+            <strong className='text-white'>Achievements:</strong>
+            <ul className='mb-1'>
+              <li>Built a chatbot using Meta Llama 3.1 70B.</li>
+              <li>Designed and implemented a custom RAG system.</li>
+              <li>Developed the Flutter UI for seamless user interaction.</li>
+              <li>Managed hosting and deployment via Google Cloud Run.</li>
+            </ul>
+            <strong className='text-white'>
+              Functionality of the Chatbot:
+            </strong>
+            <ul>
+              <li>Responds to user queries.</li>
+              <li>
+                Provides personalized tips based on user performance in
+                exercises.
+              </li>
+            </ul>
           </p>
         </div>
       </div>
