@@ -1,4 +1,3 @@
-import QuoteImageMobile from '../assets/images/git.png';
 import QuoteImageDesktop from '../assets/images/forest.jpeg';
 
 export function QuoteCard() {
@@ -8,12 +7,7 @@ export function QuoteCard() {
         <img
           src={QuoteImageDesktop}
           alt='Quote background'
-          className='object-cover w-full h-full hidden md:block'
-        />
-        <img
-          src={QuoteImageMobile}
-          alt='Quote background'
-          className='object-cover w-full h-full md:hidden'
+          className='object-cover w-full h-60'
         />
       </div>
       <div className='p-4 flex items-center justify-center text-center'>

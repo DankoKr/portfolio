@@ -5,6 +5,7 @@ import { TechStack } from '../components/techStack';
 import { Education } from '../components/education';
 import { QuoteCard } from '../components/quoteCard';
 import { GithubProfile } from '../components/githubProfile';
+import { Experience } from '../components/experienceCard';
 
 export default function HomePage() {
   return (
@@ -16,7 +17,12 @@ export default function HomePage() {
             <IntroSection />
           </div>
           <div className='col-span-3 md:col-span-1 row-span-3 flex flex-col'>
-            <QuoteCard className='flex-grow' />
+            <div className='flex-grow'>
+              <Experience />
+            </div>
+            <div className='flex-grow mt-2'>
+              <QuoteCard />
+            </div>
           </div>
           <div className='col-span-3 md:col-span-1 flex flex-col gap-2'>
             <RoleCard />
