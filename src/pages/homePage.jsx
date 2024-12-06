@@ -1,10 +1,10 @@
 import { NavBar } from '../components/navBar';
-import { IntroSection } from '../components/introSection';
+import { IntroSection } from '../components/introSectionCard';
 import { RoleCard } from '../components/roleCard';
-import { TechStack } from '../components/techStack';
-import { Education } from '../components/education';
+import { TechStack } from '../components/techStackCard';
+import { Education } from '../components/educationCard';
 import { QuoteCard } from '../components/quoteCard';
-import { GithubProfile } from '../components/githubProfile';
+import { GithubProfile } from '../components/githubProfileCard';
 import { Experience } from '../components/experienceCard';
 
 export default function HomePage() {
