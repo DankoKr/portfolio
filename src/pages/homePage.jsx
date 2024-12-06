@@ -15,17 +15,15 @@ export default function HomePage() {
           <div className='col-span-3 md:col-span-2'>
             <IntroSection />
           </div>
-          <div className='col-span-3 md:col-span-1 row-span-2 flex items-center justify-center'>
-            <QuoteCard />
+          <div className='col-span-3 md:col-span-1 row-span-3 flex flex-col'>
+            <QuoteCard className='flex-grow' />
           </div>
-          <div className='col-span-3 md:col-span-1'>
+          <div className='col-span-3 md:col-span-1 flex flex-col gap-2'>
             <RoleCard />
-          </div>
-          <div className='col-span-3 md:col-span-1'>
-            <GithubProfile />
-          </div>
-          <div className='col-span-3 md:col-span-1'>
             <TechStack />
+          </div>
+          <div className='col-span-3 md:col-span-1 flex items-center justify-center'>
+            <GithubProfile />
           </div>
           <div className='col-span-3 md:col-span-2'>
             <Education />

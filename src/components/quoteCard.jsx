@@ -1,13 +1,19 @@
-import QuoteImage from '../assets/images/forest.jpeg';
+import QuoteImageMobile from '../assets/images/git.png';
+import QuoteImageDesktop from '../assets/images/forest.jpeg';
 
 export function QuoteCard() {
   return (
-    <div className='rounded-xl bg-gray-900/60 backdrop-blur-sm overflow-hidden shadow-md h-60 md:h-80'>
-      <div className='relative h-2/3'>
+    <div className='rounded-xl bg-gray-900/60 backdrop-blur-sm overflow-hidden shadow-md h-full flex flex-col'>
+      <div className='relative flex-grow'>
         <img
-          src={QuoteImage}
+          src={QuoteImageDesktop}
           alt='Quote background'
-          className='object-cover w-full h-full'
+          className='object-cover w-full h-full hidden md:block'
+        />
+        <img
+          src={QuoteImageMobile}
+          alt='Quote background'
+          className='object-cover w-full h-full md:hidden'
         />
       </div>
       <div className='p-4 flex items-center justify-center text-center'>

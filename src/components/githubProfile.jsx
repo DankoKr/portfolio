@@ -3,12 +3,12 @@ import GitHubImage from '../assets/images/dogo.jpg';
 export function GithubProfile() {
   return (
     <div className='flex flex-col items-center text-center'>
-      <div className='w-24 h-24 rounded-full overflow-hidden bg-gray-800 border-2 border-[#4a9aba] mb-3'>
+      <div className='w-36 h-36 rounded-full overflow-hidden bg-gray-800 border-2 border-[#4a9aba] mb-3'>
         <img
           src={GitHubImage}
           alt='Profile picture'
-          width={96}
-          height={96}
+          width={144}
+          height={144}
           className='w-full h-full object-cover'
         />
       </div>
