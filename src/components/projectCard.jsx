@@ -6,29 +6,25 @@ export function ProjectCard({ project }) {
   return (
     <div className='flex flex-col md:flex-row max-w-5xl mx-auto my-8 rounded-lg overflow-hidden shadow-lg'>
       <div className='md:w-6/12 p-4'>
-        <div className='h-full bg-gray-100 rounded-lg overflow-hidden shadow-inner'>
+        <div className='h-full bg-gray-900/60 rounded-lg overflow-hidden shadow-inner'>
           <img
             src={imageSrc}
             alt={`${title} Image`}
             className='w-full h-full object-cover'
-            loading='lazy'
-            onError={(e) => {
-              e.target.src = '/images/default.jpg';
-            }}
           />
         </div>
       </div>
 
       <div className='md:w-6/12 p-4 flex flex-col justify-between'>
-        <div className='bg-gray-100 p-6 rounded-lg mb-4'>
-          <h3 className='text-2xl font-bold text-gray-800 mb-2'>DESCRIPTION</h3>
-          <p className='text-gray-600'>{description}</p>
+        <div className='bg-gray-900/60 p-6 rounded-lg mb-4 shadow-md'>
+          <h3 className='text-2xl font-bold text-white mb-2'>DESCRIPTION</h3>
+          <p className='text-gray-300'>{description}</p>
         </div>
 
-        <div className='bg-gray-100 p-4 rounded-lg shadow-inner'>
+        <div className='bg-gray-900/60 p-4 rounded-lg shadow-inner'>
           <a
             href={link.href}
-            className='flex items-center justify-center text-blue-600 hover:text-blue-800 transition-colors'
+            className='flex items-center justify-center text-white hover:text-[#254b5e] hover:bg-opacity-80 transition-colors w-full py-2 rounded-md text-sm text-center'
             target='_blank'
             rel='noopener noreferrer'
           >
