@@ -11,6 +11,7 @@ export const projects = [
       href: 'https://github.com/yourusername/project-one',
       text: 'View Project',
     },
+    tech: ['React', 'Tailwind CSS', 'Node.js'],
   },
   {
     id: 2,
@@ -22,5 +23,6 @@ export const projects = [
       href: 'https://github.com/yourusername/project-two',
       text: 'View Project',
     },
+    tech: ['React', 'Tailwind CSS', 'Node.js'],
   },
 ];
