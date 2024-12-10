@@ -9,35 +9,38 @@ export function Experience() {
           </h3>
           <p className='text-xs text-gray-400'>
             <strong className='text-white'>Key Responsibilities:</strong>
-            <ul className='mb-1'>
-              <li>
-                Conducted research on designing a chatbot system to enhance user
-                experience.
-              </li>
-              <li>
-                Completed research ahead of schedule and transitioned to
-                implementation.
-              </li>
-            </ul>
+          </p>
+          <ul className='mb-1 text-xs text-gray-400'>
+            <li>
+              Conducted research on designing a chatbot system to enhance user
+              experience.
+            </li>
+            <li>
+              Completed research ahead of schedule and transitioned to
+              implementation.
+            </li>
+          </ul>
+          <p className='text-xs text-gray-400'>
             <strong className='text-white'>Achievements:</strong>
-            <ul className='mb-1'>
-              <li>Built a chatbot using Meta Llama 3.1 70B.</li>
-              <li>Designed and implemented a custom RAG system.</li>
-              <li>Developed the Flutter UI for seamless user interaction.</li>
-              <li>Managed hosting and deployment via Google Cloud Run.</li>
-              <li>Implemented in-app-purchase using Adapty.</li>
-            </ul>
+          </p>
+          <ul className='mb-1 text-xs text-gray-400'>
+            <li>Built a chatbot using Meta Llama 3.1 70B.</li>
+            <li>Designed and implemented a custom RAG system.</li>
+            <li>Developed the Flutter UI for seamless user interaction.</li>
+            <li>Managed hosting and deployment via Google Cloud Run.</li>
+            <li>Implemented in-app-purchase using Adapty.</li>
+          </ul>
+          <p className='text-xs text-gray-400'>
             <strong className='text-white'>
               Functionality of the Chatbot:
             </strong>
-            <ul>
-              <li>Responds to user queries.</li>
-              <li>
-                Provides personalized tips based on user performance in
-                exercises.
-              </li>
-            </ul>
           </p>
+          <ul className='text-xs text-gray-400'>
+            <li>Responds to user queries.</li>
+            <li>
+              Provides personalized tips based on user performance in exercises.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
