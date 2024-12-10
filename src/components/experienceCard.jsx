@@ -25,6 +25,7 @@ export function Experience() {
               <li>Designed and implemented a custom RAG system.</li>
               <li>Developed the Flutter UI for seamless user interaction.</li>
               <li>Managed hosting and deployment via Google Cloud Run.</li>
+              <li>Implemented in-app-purchase using Adapty.</li>
             </ul>
             <strong className='text-white'>
               Functionality of the Chatbot:
