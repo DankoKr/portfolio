@@ -16,7 +16,7 @@ export function ProjectCard({ project }) {
         </div>
       </div>
 
-      <div className='md:w-6/12 p-2 md:p-4 flex flex-col justify-between'>
+      <div className='md:w-6/12 p-2 md:p-3 flex flex-col justify-between'>
         <div className='bg-gray-900/60 p-4 md:p-6 rounded-lg mb-2 md:mb-4 shadow-md'>
           <h3 className='text-2xl font-bold text-white mb-2'>{title}</h3>
           <p className='text-gray-300 mb-4'>{description}</p>
@@ -33,7 +33,7 @@ export function ProjectCard({ project }) {
           </div>
         </div>
 
-        <div className='bg-[#1a3a4a] p-2 md:p-4 rounded-lg shadow-inner'>
+        <div className='bg-[#1a3a4a] p-2 md:p-2 rounded-lg shadow-inner'>
           <a
             href={link.href}
             className='flex items-center justify-center text-white hover:bg-opacity-80 transition-colors w-full py-2 rounded-md text-sm text-center'
