@@ -31,7 +31,7 @@ export default function HomePage() {
   return (
     <div className='min-h-screen bg-gray-950 text-white'>
       <NavBar />
-      <main className='container mx-auto px-4 pt-20 mb-12'>
+      <main className='container mx-auto px-4 pt-20 pb-20'>
         <motion.div
           initial='hidden'
           animate='visible'

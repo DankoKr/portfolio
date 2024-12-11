@@ -1,28 +1,42 @@
-import Image from '../assets/images/github.jpeg';
+import EcuPlatformImage from '../assets/images/ecuPlatform.png';
+import SnakeGameImage from '../assets/images/snakeGame.png';
+import BabysitaImage from '../assets/images/spring.png';
 
 export const projects = [
   {
     id: 1,
-    imageSrc: Image,
-    title: 'test-image',
+    imageSrc: SnakeGameImage,
+    title: 'Snake Game',
     description:
-      'Project One is a comprehensive web application designed to streamline task management and enhance team collaboration. It features real-time updates, user-friendly interfaces, and robust security measures to ensure data integrity.',
+      'This is a classic Snake game built using TypeScript, featuring the D3 library for SVG rendering. It includes various food types, a points system, and engaging arcade-style audio effects.',
     link: {
-      href: 'https://github.com/yourusername/project-one',
+      href: 'https://github.com/DankoKr/snakeGame',
       text: 'View Project',
     },
-    tech: ['React', 'Tailwind CSS', 'Node.js'],
+    tech: ['Vite', 'Tailwind CSS', 'TS', 'D3.js'],
   },
   {
     id: 2,
-    imageSrc: Image,
-    title: 'test-image',
+    imageSrc: EcuPlatformImage,
+    title: 'European Cheer Union platform',
     description:
-      'Project Two is an innovative mobile app that leverages machine learning to provide personalized recommendations. It offers a seamless user experience with intuitive navigation and customizable settings.',
+      'A document management platform developed for the European Cheer Union, designed to facilitate member and document administration. Some aspects, such as roles for judges and committee members, are not included due to copyright restrictions.',
     link: {
-      href: 'https://github.com/yourusername/project-two',
+      href: 'https://github.com/DankoKr/ecu',
       text: 'View Project',
     },
-    tech: ['React', 'Tailwind CSS', 'Node.js'],
+    tech: ['React', 'Tailwind CSS', 'Node.js', 'ExpressJS', 'PostgreSQL'],
+  },
+  {
+    id: 3,
+    imageSrc: BabysitaImage,
+    title: 'Babysita API',
+    description:
+      'This API is a component of my Semester 3 project, serving as the backend for a babysitting website. The objective of this project was to develop a full-stack application utilizing a Gitlab pipeline and Docker.',
+    link: {
+      href: 'https://github.com/DankoKr/babysita',
+      text: 'View Project',
+    },
+    tech: ['Java', 'Spring Boot', 'Gradle', 'Docker', 'CI/CD'],
   },
 ];
