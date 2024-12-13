@@ -13,7 +13,7 @@ export const projects = [
       href: 'https://github.com/DankoKr/snakeGame',
       text: 'View Project',
     },
-    tech: ['Vite', 'Tailwind CSS', 'TS', 'D3.js'],
+    tech: ['Vite', 'CSS', 'TS', 'D3.js'],
   },
   {
     id: 2,
