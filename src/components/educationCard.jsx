@@ -13,6 +13,14 @@ export function Education() {
         </div>
         <div>
           <h3 className='font-medium text-sm'>
+            Algorithms with Python by SoftUni
+          </h3>
+          <p className='text-xs text-gray-400'>
+            This course taught me the fundamentals of Graphs (Issued December 2024).
+          </p>
+        </div>
+        <div>
+          <h3 className='font-medium text-sm'>
             Machine Learning Specialization by DeepLearning.AI, Stanford
             University
           </h3>
