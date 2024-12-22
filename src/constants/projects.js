@@ -1,5 +1,6 @@
 import EcuPlatformImage from '../assets/images/ecuPlatform.png';
 import SnakeGameImage from '../assets/images/snakeGame.png';
+import SnapFlirtImage from '../assets/images/snapflirt.png';
 import BabysitaImage from '../assets/images/spring.png';
 
 export const projects = [
@@ -29,6 +30,18 @@ export const projects = [
   },
   {
     id: 3,
+    imageSrc: SnapFlirtImage,
+    title: 'SnapFlirt',
+    description:
+      'This document integrates the capabilities of the Google Cloud Vision API for image analysis with Llama 3.1 70B (hosted on Groq) to generate a playful or flirty line inspired by the image. Since the project operates on the free tier of Render, it may take up to 50 seconds to generate the first flirty line after inactivity, though subsequent responses are unaffected.',
+    link: {
+      href: 'https://snapflirt.onrender.com',
+      text: 'View Project',
+    },
+    tech: ['Llama 3.1 70B', 'Google Cloud Vision API', 'React'],
+  },
+  {
+    id: 4,
     imageSrc: BabysitaImage,
     title: 'Babysita API',
     description:
