@@ -35,7 +35,7 @@ export const projects = [
     description:
       'This document integrates the capabilities of the Google Cloud Vision API for image analysis with Llama 3.1 70B (hosted on Groq) to generate a playful or flirty line inspired by the image. Since the project operates on the free tier of Render, it may take up to 50 seconds to generate the first flirty line after inactivity, though subsequent responses are unaffected.',
     link: {
-      href: 'https://snapflirt.onrender.com',
+      href: 'https://snap-flirt-web.vercel.app',
       text: 'View Project',
     },
     tech: ['Llama 3.1 70B', 'Google Cloud Vision API', 'React'],
