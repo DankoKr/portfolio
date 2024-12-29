@@ -11,7 +11,7 @@ export const projects = [
     description:
       'This is a classic Snake game built using TypeScript, featuring the D3 library for SVG rendering. It includes various food types, a points system, and engaging arcade-style audio effects.',
     link: {
-      href: 'https://github.com/DankoKr/snakeGame',
+      href: 'https://snake-game-zeta-nine.vercel.app',
       text: 'View Project',
     },
     tech: ['Vite', 'CSS', 'TS', 'D3.js'],
