@@ -5,10 +5,10 @@ export function Education() {
       <div className='space-y-4'>
         <div>
           <h3 className='font-medium text-sm'>
-            Fontys University of Applied Sciences (2022 - Today)
+            Fontys University of Applied Sciences
           </h3>
           <p className='text-xs text-gray-400'>
-            I am currently attending the 5th semester at Fontys ICT (internship)
+            I am currently attending 6th semester (3rd year)
           </p>
         </div>
         <div>
