@@ -4,7 +4,7 @@ export function IntroSection() {
       <h2 className='text-xl font-semibold mb-4'>Who am I?</h2>
       <p className='text-gray-300 text-sm'>
         Hi! I&apos;m Danko, a Junior Software Engineer based in
-        Eindhoven, The Netherlands. I&apos;m passionate about building software
+        Sofia, Bulgaria. I&apos;m passionate about building software
         solutions and constantly seeking new challenges to tackle.
       </p>
     </div>
