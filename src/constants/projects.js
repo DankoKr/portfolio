@@ -1,3 +1,4 @@
+import MovieJournalImage from "../assets/images/movie-journal.png";
 import EcuPlatformImage from "../assets/images/ecuPlatform.png";
 import SnakeGameImage from "../assets/images/snakeGame.png";
 import TwoDGameImage from "../assets/images/2d-game.png";
@@ -5,8 +6,20 @@ import SnapFlirtImage from "../assets/images/snapflirt.png";
 import BabysitaImage from "../assets/images/spring.png";
 
 export const projects = [
-  {
+    {
     id: 1,
+    imageSrc: MovieJournalImage,
+    title: "Movie Journal",
+    description:
+      "A web platform that lets you track the movies you want to watch, link them to YouTube trailers, and explore the movies your friends are watching",
+    link: {
+      href: "https://movie-journal-production.up.railway.app/",
+      text: "View Project",
+    },
+    tech: ["Laravel", "Tailwind CSS", "PHP"],
+  },
+  {
+    id: 2,
     imageSrc: SnakeGameImage,
     title: "Snake Game",
     description:
@@ -18,7 +31,7 @@ export const projects = [
     tech: ["Vite", "CSS", "TS", "D3.js"],
   },
   {
-    id: 2,
+    id: 3,
     imageSrc: EcuPlatformImage,
     title: "European Cheer Union platform",
     description:
@@ -30,7 +43,7 @@ export const projects = [
     tech: ["React", "Tailwind CSS", "Node.js", "ExpressJS", "PostgreSQL"],
   },
   {
-    id: 3,
+    id: 4,
     imageSrc: TwoDGameImage,
     title: "2D game portfolio extension",
     description:
@@ -42,7 +55,7 @@ export const projects = [
     tech: ["Vite", "CSS", "Kaboom.js"],
   },
   {
-    id: 4,
+    id: 5,
     imageSrc: SnapFlirtImage,
     title: "SnapFlirt",
     description:
@@ -54,7 +67,7 @@ export const projects = [
     tech: ["Llama 3.1 70B", "Google Cloud Vision API", "React"],
   },
   {
-    id: 5,
+    id: 6,
     imageSrc: BabysitaImage,
     title: "Babysita API",
     description:
