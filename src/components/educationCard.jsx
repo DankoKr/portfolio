@@ -5,10 +5,11 @@ export function Education() {
       <div className="space-y-4">
         <div>
           <h3 className="font-medium text-m">
-            Fontys University of Applied Sciences
+            Google UX Design Professional Certificate
           </h3>
           <p className="text-sm text-gray-400">
-            Completed 6/8 semesters at Fontys in Eindhoven
+            This course taught me the fundamentals of UX and UX Research (Issued
+            January 2025).
           </p>
         </div>
         <div>
@@ -43,10 +44,18 @@ export function Education() {
         </div>
         <div>
           <h3 className="font-medium text-m">
-            First English Language School Sofia (2017-2022)
+            Fontys University of Applied Sciences
           </h3>
           <p className="text-sm text-gray-400">
-            High School Diploma, graduated with honors.
+            Completed 5/8 semesters at Fontys in Eindhoven (2022-2025).
+          </p>
+        </div>
+        <div>
+          <h3 className="font-medium text-m">
+            First English Language School Sofia
+          </h3>
+          <p className="text-sm text-gray-400">
+            High School Diploma, graduated with honors (2017-2022).
           </p>
         </div>
       </div>
